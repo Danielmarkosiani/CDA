@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-labelledby="t d">
+<title id="t">split(): ხაზის ნაწილები და მათი ინდექსები</title>
+<desc id="d">სქემა: ხაზი 2025-01-10 10:01 FAILED login from 192.0.2.5 ექვს ნაწილად იყოფა; ზემოთ ინდექსები 0-დან 5-მდე, ქვემოთ უარყოფითი ინდექსები -6-დან -1-მდე.</desc>
+<rect x="1" y="1" width="758" height="278" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="15" font-weight="700" fill="#1c1f22">line.split()  →  parts</text>
+<rect x="28" y="100" width="130" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="93.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">2025-01-10</text>
+<text x="93.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[0]</text>
+<text x="93.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-6]</text>
+<rect x="164" y="100" width="86" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="207.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">10:01</text>
+<text x="207.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[1]</text>
+<text x="207.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-5]</text>
+<rect x="256" y="100" width="100" height="52" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="306.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">FAILED</text>
+<text x="306.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[2]</text>
+<text x="306.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-4]</text>
+<rect x="362" y="100" width="86" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="405.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">login</text>
+<text x="405.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[3]</text>
+<text x="405.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-3]</text>
+<rect x="454" y="100" width="78" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="493.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">from</text>
+<text x="493.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[4]</text>
+<text x="493.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-2]</text>
+<rect x="538" y="100" width="130" height="52" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="603.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">192.0.2.5</text>
+<text x="603.0" y="88" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#2b7cc2">[5]</text>
+<text x="603.0" y="180" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">[-1]</text>
+<text x="380" y="222" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#1c1f22">parts[2] == "FAILED"        parts[-1] == "192.0.2.5"</text>
+<text x="380" y="252" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ზედა რიგი: ინდექსი თავიდან · ქვედა რიგი: ინდექსი ბოლოდან · ნარინჯისფერი = ის, რაც გვჭირდება</text>
+</svg>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ka" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>კოდის სავარჯიშო</title>
+<!-- ეს გვერდი მთავარ საიტში iframe-ად ჩაიდგმება sandbox="allow-scripts"-ით (allow-same-origin-ის გარეშე): მისი წარმოშობა გაუმჭვირვალეა,
+     cookie-ზე, localStorage-ზე და საიტის API-ზე წვდომა არ აქვს. მთავარ გვერდთან კომუნიკაცია მხოლოდ postMessage-ითაა. CSP: server.py SANDBOX_CSP. -->
+<link rel="stylesheet" href="editor.css">
+<script src="editor.js" defer></script></head>
+<body>
+<div class="ex">
+  <div class="bar">
+    <span id="status" role="status" aria-live="polite">იტვირთება…</span>
+    <span class="grp"><button type="button" id="run" class="b pri" disabled>Run</button><button type="button" id="reset" class="b">Reset</button></span>
+  </div>
+  <div class="cols">
+    <div class="pane"><label for="code" class="lab">კოდი</label><textarea id="code" spellcheck="false" autocomplete="off" autocapitalize="off" aria-describedby="tip" rows="14"></textarea>
+      <p id="tip" class="tip">Tab ჩაღრმავებას სვამს. Escape-ის შემდეგ Tab ფოკუსს გადაიტანს შემდეგ ელემენტზე.</p></div>
+    <div class="pane"><div class="lab" id="outlab">შედეგი</div>
+      <pre id="out" class="out" aria-labelledby="outlab" aria-live="polite" tabindex="0"></pre>
+      <iframe id="prev" class="prev" title="შედეგის ნახვა" sandbox="allow-scripts" referrerpolicy="no-referrer" hidden></iframe></div>
+  </div>
+  <div id="res" class="res" hidden></div>
+  <p class="note">შემოწმება მხოლოდ უკუკავშირია სწავლისთვის: გაკვეთილის დასრულებაზე ან სერტიფიკატზე არ მოქმედებს.</p>
+</div>
+</body></html>

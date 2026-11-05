@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d">
+<title id="t">აგრეგაცია: პატარა დეტალები ერთად სრულ სურათს იძლევა</title>
+<desc id="d">სქემა: ოთხი ცალკე უმნიშვნელო დეტალი (ფოტოზე ქუჩის ნიშანი, პოსტის დრო, ჰეშთეგი, ძველი ანგარიში) ერთად ადგილსა და რუტინას აჩვენებს; ამიტომ საკუთარ კვალს თავად ამოწმებ.</desc>
+<rect x="1" y="1" width="758" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<rect x="20" y="30" width="300" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="170.0" y="60.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">ფოტოზე ქუჩის ნიშანი</text>
+<line x1="320" y1="56" x2="440" y2="135.0" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="20" y="100" width="300" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="170.0" y="130.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">პოსტის დრო (ყოველდღე 8:10)</text>
+<line x1="320" y1="126" x2="440" y2="145.0" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="20" y="170" width="300" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="170.0" y="200.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">ჰეშთეგი სკოლის/სამუშაოს სახელით</text>
+<line x1="320" y1="196" x2="440" y2="155.0" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="20" y="240" width="300" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="170.0" y="270.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">ძველი, გამოუყენებელი ანგარიში</text>
+<line x1="320" y1="266" x2="440" y2="165.0" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="440" y="100" width="300" height="100" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="590.0" y="145.8" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1c1f22">ერთად ჩანს:</text>
+<text x="590.0" y="164.8" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#5d646b">სად ხარ, როდის და რა რუტინით</text>
+<rect x="440" y="250" width="300" height="70" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="590.0" y="280.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">შენი აუდიტი</text>
+<text x="590.0" y="298.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">ამას სხვაზე ადრე შენ აღმოაჩენ</text>
+<line x1="590" y1="200" x2="590" y2="250" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="380" y="346" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ლურჯი = ცალკე დეტალი · ნარინჯისფერი = რისკი · მწვანე = შენი მოქმედება</text>
+</svg>

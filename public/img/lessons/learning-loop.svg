@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-labelledby="t d">
+<title id="t">სწავლის ციკლი: ისწავლე, ივარჯიშე, დააფიქსირე, გააზიარე</title>
+<desc id="d">სქემა: ხუთი ნაბიჯი წრეზე: ისწავლე, ივარჯიშე ლეგალურ გარემოში, დააფიქსირე ანგარიშით, შეინახე პორტფოლიოში, მიიღე უკუკავშირი; შემდეგ ახალი მიზანი და ციკლი თავიდან იწყება.</desc>
+<rect x="1" y="1" width="758" height="298" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<rect x="14" y="70" width="136" height="84" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="82.0" y="116.5" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#1c1f22">ისწავლე</text>
+<line x1="150" y1="112" x2="162" y2="112" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="162" y="70" width="136" height="84" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="230.0" y="108.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ივარჯიშე</text>
+<text x="230.0" y="125.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ლეგალურ გარემოში</text>
+<line x1="298" y1="112" x2="310" y2="112" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="310" y="70" width="136" height="84" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="378.0" y="108.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">დააფიქსირე</text>
+<text x="378.0" y="125.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">(ანგარიში, README)</text>
+<line x1="446" y1="112" x2="458" y2="112" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="458" y="70" width="136" height="84" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="526.0" y="108.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">შეინახე</text>
+<text x="526.0" y="125.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">პორტფოლიოში</text>
+<line x1="594" y1="112" x2="606" y2="112" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="606" y="70" width="136" height="84" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="674.0" y="108.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">მიიღე</text>
+<text x="674.0" y="125.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">უკუკავშირი</text>
+<line x1="680" y1="154" x2="680" y2="214" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<line x1="680" y1="214" x2="80" y2="214" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="380" y="206" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ახალი მიზანი, ციკლი თავიდან</text>
+<line x1="80" y1="214" x2="80" y2="156" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="380" y="36" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1c1f22">ციკლი მუდმივად მეორდება</text>
+<text x="380" y="262" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">მწვანე = მხოლოდ საკუთარ ლაბორატორიაში, სასწავლო პლატფორმაზე ან ნებართვის მქონე გარემოში</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 612" width="480" height="612" role="img" aria-labelledby="t d">
+<title id="t">ლოგის ანალიზატორი: სამი ნაბიჯი</title>
+<desc id="d">ლოგის ხაზი გადის failed_ip(line) ფუნქციაში: ის აბრუნებს IP-ს, არასაინტერესო ხაზზე კი None-ს და ხაზი გამოტოვებულია. Counter თითო IP-ზე წარუმატებელ შესვლებს ითვლის, most_common() ხშირიდან იშვიათამდე ალაგებს. შედეგი ეკრანზე გამოდის, ზღვრის ტოლი ან მეტი მონიშნულია ეჭვმისაღებად, და, თუ --csv მიეთითა, იწერება CSV ფაილში.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d8dbde}
+text{font-family:'Noto Sans Georgian','Sylfaen','Segoe UI',sans-serif;fill:#1c1f22}
+.mono{font-family:ui-monospace,Consolas,Menlo,'DejaVu Sans Mono',monospace}
+.m{fill:#5d646b}.b{font-weight:700}
+.tb{fill:#1f6aa8}.to{fill:#a8460f}.tg{fill:#25704a}
+.halo{stroke:#ffffff;stroke-width:5;paint-order:stroke;stroke-linejoin:round}
+.fb{fill:#dbeaf7;stroke:#2b7cc2}.fg{fill:#e2f1e8;stroke:#2f855a}.fo{fill:#fdebd9;stroke:#c05621}.fy{fill:#f2f3f4;stroke:#5d646b}
+.lb{stroke:#2b7cc2}.lg{stroke:#2f855a}.lo{stroke:#c05621}.ly{stroke:#5d646b}
+.mb{fill:#2b7cc2}.mg{fill:#2f855a}.mo{fill:#c05621}.my{fill:#5d646b}
+.gc{fill:#2b7cc2}.gl{stroke:#9aa3ab}
+.dot{fill:#2b7cc2}.dot-t{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1c1f22;stroke:#3a4047}
+text{fill:#eceef0}
+.m{fill:#adb4bb}
+.tb{fill:#7dbdf0}.to{fill:#f4a868}.tg{fill:#6fcb98}
+.halo{stroke:#1c1f22}
+.fb{fill:#1d3a56;stroke:#6db3ec}.fg{fill:#1c3b2a;stroke:#5fc08a}.fo{fill:#4a2c17;stroke:#f0a060}.fy{fill:#2a2f34;stroke:#8d969e}
+.lb{stroke:#6db3ec}.lg{stroke:#5fc08a}.lo{stroke:#f0a060}.ly{stroke:#8d969e}
+.mb{fill:#6db3ec}.mg{fill:#5fc08a}.mo{fill:#f0a060}.my{fill:#8d969e}
+.gc{fill:#6db3ec}.gl{stroke:#4a525a}
+.dot{fill:#6db3ec}.dot-t{fill:#10202f}
+}
+</style>
+<rect class="bg" x="1" y="1" width="478" height="610" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mb" d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mg" d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mo" d="M0 0L10 5L0 10z" fill="#c05621"/></marker><marker id="my" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="my" d="M0 0L10 5L0 10z" fill="#5d646b"/></marker></defs>
+<text class="b" x="240" y="28" text-anchor="middle" font-size="16">ლოგის ანალიზატორი: სამი ნაბიჯი</text>
+<rect class="fy" x="24" y="46" width="270" height="58" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text class="b" x="159" y="69.5" text-anchor="middle" font-size="15">ლოგის ხაზი</text>
+<text class="mono" x="159" y="90.5" text-anchor="middle" font-size="13">… FAILED login from 192.0.2.5</text>
+<path class="lb" d="M159,104 L159,148" fill="none" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<rect class="fb" x="24" y="148" width="270" height="74" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="159" y="169.0" text-anchor="middle" font-size="15">ნაბიჯი 1</text>
+<text class="mono" x="159" y="190.0" text-anchor="middle" font-size="14">failed_ip(line)</text>
+<text class="m" x="159" y="211.0" text-anchor="middle" font-size="14">აბრუნებს IP-ს</text>
+<path class="ly" d="M294,185 L336,185" fill="none" stroke="#5d646b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#my)"/>
+<rect class="fy" x="336" y="153" width="128" height="64" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text class="mono b" x="400" y="171.0" text-anchor="middle" font-size="14">None</text>
+<text x="400" y="190.0" text-anchor="middle" font-size="14">ხაზი</text>
+<text x="400" y="209.0" text-anchor="middle" font-size="14">გამოტოვებულია</text>
+<path class="lb" d="M159,222 L159,266" fill="none" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<rect class="fb" x="24" y="266" width="270" height="74" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="159" y="287.0" text-anchor="middle" font-size="15">ნაბიჯი 2</text>
+<text class="mono" x="159" y="308.0" text-anchor="middle" font-size="14">Counter</text>
+<text class="m" x="159" y="329.0" text-anchor="middle" font-size="14">IP → რაოდენობა</text>
+<path class="lb" d="M159,340 L159,384" fill="none" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<rect class="fb" x="24" y="384" width="270" height="74" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="159" y="405.0" text-anchor="middle" font-size="15">ნაბიჯი 3</text>
+<text class="mono" x="159" y="426.0" text-anchor="middle" font-size="14">most_common()</text>
+<text class="m" x="159" y="447.0" text-anchor="middle" font-size="14">ხშირიდან იშვიათამდე</text>
+<path class="lg" d="M110,458 L110,504" fill="none" stroke="#2f855a" stroke-width="2" marker-end="url(#mg)"/>
+<path class="lg" d="M250,458 L250,481 L360,481 L360,504" fill="none" stroke="#2f855a" stroke-width="2" marker-end="url(#mg)"/>
+<rect class="fg" x="24" y="504" width="200" height="90" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text class="b" x="124" y="525.5" text-anchor="middle" font-size="15">ეკრანზე</text>
+<text x="124" y="544.5" text-anchor="middle" font-size="14">IP და რაოდენობა</text>
+<text x="124" y="563.5" text-anchor="middle" font-size="14">ზღვრის ტოლი ან მეტი</text>
+<text x="124" y="582.5" text-anchor="middle" font-size="14">მონიშნულია</text>
+<rect class="fg" x="250" y="504" width="214" height="90" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text class="b" x="357" y="533.0" text-anchor="middle" font-size="15">CSV ფაილი</text>
+<text class="mono" x="357" y="554.0" text-anchor="middle" font-size="14">--csv report.csv</text>
+<text class="m" x="357" y="575.0" text-anchor="middle" font-size="14">თუ მიუთითე</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 590" width="480" height="590" role="img" aria-labelledby="t d">
+<title id="t">რისკი = ალბათობა × გავლენა</title>
+<desc id="d">ბადე 5 × 5: ჰორიზონტალურად ალბათობა 1-დან 5-მდე, ვერტიკალურად გავლენა 1-დან 5-მდე; რაც უფრო მარჯვნივ და ზემოთაა უჯრა, მით ძლიერია მისი ფერი. ხუთი რისკი: 1) სუსტი ადმინის პაროლი 4 × 4 = 16; 2) ასლების არარსებობა 3 × 5 = 15; 3) ძველი დანამატი 3 × 4 = 12; 4) ფიშინგი თანამშრომლებზე 3 × 3 = 9; 5) დენის გათიშვა 2 × 2 = 4.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d8dbde}
+text{font-family:'Noto Sans Georgian','Sylfaen','Segoe UI',sans-serif;fill:#1c1f22}
+.mono{font-family:ui-monospace,Consolas,Menlo,'DejaVu Sans Mono',monospace}
+.m{fill:#5d646b}.b{font-weight:700}
+.tb{fill:#1f6aa8}.to{fill:#a8460f}.tg{fill:#25704a}
+.halo{stroke:#ffffff;stroke-width:5;paint-order:stroke;stroke-linejoin:round}
+.fb{fill:#dbeaf7;stroke:#2b7cc2}.fg{fill:#e2f1e8;stroke:#2f855a}.fo{fill:#fdebd9;stroke:#c05621}.fy{fill:#f2f3f4;stroke:#5d646b}
+.lb{stroke:#2b7cc2}.lg{stroke:#2f855a}.lo{stroke:#c05621}.ly{stroke:#5d646b}
+.mb{fill:#2b7cc2}.mg{fill:#2f855a}.mo{fill:#c05621}.my{fill:#5d646b}
+.gc{fill:#2b7cc2}.gl{stroke:#9aa3ab}
+.dot{fill:#2b7cc2}.dot-t{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1c1f22;stroke:#3a4047}
+text{fill:#eceef0}
+.m{fill:#adb4bb}
+.tb{fill:#7dbdf0}.to{fill:#f4a868}.tg{fill:#6fcb98}
+.halo{stroke:#1c1f22}
+.fb{fill:#1d3a56;stroke:#6db3ec}.fg{fill:#1c3b2a;stroke:#5fc08a}.fo{fill:#4a2c17;stroke:#f0a060}.fy{fill:#2a2f34;stroke:#8d969e}
+.lb{stroke:#6db3ec}.lg{stroke:#5fc08a}.lo{stroke:#f0a060}.ly{stroke:#8d969e}
+.mb{fill:#6db3ec}.mg{fill:#5fc08a}.mo{fill:#f0a060}.my{fill:#8d969e}
+.gc{fill:#6db3ec}.gl{stroke:#4a525a}
+.dot{fill:#6db3ec}.dot-t{fill:#10202f}
+}
+</style>
+<rect class="bg" x="1" y="1" width="478" height="588" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mb" d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mg" d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mo" d="M0 0L10 5L0 10z" fill="#c05621"/></marker><marker id="my" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="my" d="M0 0L10 5L0 10z" fill="#5d646b"/></marker></defs>
+<text class="b" x="240" y="30" text-anchor="middle" font-size="16">რისკი = ალბათობა × გავლენა</text>
+<rect class="gc" x="130" y="268" width="54" height="54" fill="#2b7cc2" fill-opacity="0.07"/>
+<rect class="gc" x="130" y="214" width="54" height="54" fill="#2b7cc2" fill-opacity="0.09"/>
+<rect class="gc" x="130" y="160" width="54" height="54" fill="#2b7cc2" fill-opacity="0.11"/>
+<rect class="gc" x="130" y="106" width="54" height="54" fill="#2b7cc2" fill-opacity="0.13"/>
+<rect class="gc" x="130" y="52" width="54" height="54" fill="#2b7cc2" fill-opacity="0.15"/>
+<rect class="gc" x="184" y="268" width="54" height="54" fill="#2b7cc2" fill-opacity="0.09"/>
+<rect class="gc" x="184" y="214" width="54" height="54" fill="#2b7cc2" fill-opacity="0.13"/>
+<rect class="gc" x="184" y="160" width="54" height="54" fill="#2b7cc2" fill-opacity="0.17"/>
+<rect class="gc" x="184" y="106" width="54" height="54" fill="#2b7cc2" fill-opacity="0.21"/>
+<rect class="gc" x="184" y="52" width="54" height="54" fill="#2b7cc2" fill-opacity="0.25"/>
+<rect class="gc" x="238" y="268" width="54" height="54" fill="#2b7cc2" fill-opacity="0.11"/>
+<rect class="gc" x="238" y="214" width="54" height="54" fill="#2b7cc2" fill-opacity="0.17"/>
+<rect class="gc" x="238" y="160" width="54" height="54" fill="#2b7cc2" fill-opacity="0.23"/>
+<rect class="gc" x="238" y="106" width="54" height="54" fill="#2b7cc2" fill-opacity="0.29"/>
+<rect class="gc" x="238" y="52" width="54" height="54" fill="#2b7cc2" fill-opacity="0.35"/>
+<rect class="gc" x="292" y="268" width="54" height="54" fill="#2b7cc2" fill-opacity="0.13"/>
+<rect class="gc" x="292" y="214" width="54" height="54" fill="#2b7cc2" fill-opacity="0.21"/>
+<rect class="gc" x="292" y="160" width="54" height="54" fill="#2b7cc2" fill-opacity="0.29"/>
+<rect class="gc" x="292" y="106" width="54" height="54" fill="#2b7cc2" fill-opacity="0.37"/>
+<rect class="gc" x="292" y="52" width="54" height="54" fill="#2b7cc2" fill-opacity="0.45"/>
+<rect class="gc" x="346" y="268" width="54" height="54" fill="#2b7cc2" fill-opacity="0.15"/>
+<rect class="gc" x="346" y="214" width="54" height="54" fill="#2b7cc2" fill-opacity="0.25"/>
+<rect class="gc" x="346" y="160" width="54" height="54" fill="#2b7cc2" fill-opacity="0.35"/>
+<rect class="gc" x="346" y="106" width="54" height="54" fill="#2b7cc2" fill-opacity="0.45"/>
+<rect class="gc" x="346" y="52" width="54" height="54" fill="#2b7cc2" fill-opacity="0.55"/>
+<line class="gl" x1="130" y1="52" x2="400" y2="52" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="52" x2="130" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="106" x2="400" y2="106" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="184" y1="52" x2="184" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="160" x2="400" y2="160" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="238" y1="52" x2="238" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="214" x2="400" y2="214" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="292" y1="52" x2="292" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="268" x2="400" y2="268" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="346" y1="52" x2="346" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="130" y1="322" x2="400" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<line class="gl" x1="400" y1="52" x2="400" y2="322" stroke="#9aa3ab" stroke-width="1"/>
+<text class="m" x="157.0" y="342" text-anchor="middle" font-size="14">1</text>
+<text class="m" x="118" y="300.0" text-anchor="middle" font-size="14">1</text>
+<text class="m" x="211.0" y="342" text-anchor="middle" font-size="14">2</text>
+<text class="m" x="118" y="246.0" text-anchor="middle" font-size="14">2</text>
+<text class="m" x="265.0" y="342" text-anchor="middle" font-size="14">3</text>
+<text class="m" x="118" y="192.0" text-anchor="middle" font-size="14">3</text>
+<text class="m" x="319.0" y="342" text-anchor="middle" font-size="14">4</text>
+<text class="m" x="118" y="138.0" text-anchor="middle" font-size="14">4</text>
+<text class="m" x="373.0" y="342" text-anchor="middle" font-size="14">5</text>
+<text class="m" x="118" y="84.0" text-anchor="middle" font-size="14">5</text>
+<text class="m" x="265.0" y="368" text-anchor="middle" font-size="14">ალბათობა →</text>
+<text class="m" transform="translate(40 187.0) rotate(-90)" text-anchor="middle" font-size="14">გავლენა →</text>
+<circle class="dot" cx="319.0" cy="133.0" r="16" fill="#2b7cc2"/>
+<text class="dot-t b" x="319.0" y="138.0" text-anchor="middle" font-size="15" fill="#ffffff">1</text>
+<circle class="dot" cx="265.0" cy="79.0" r="16" fill="#2b7cc2"/>
+<text class="dot-t b" x="265.0" y="84.0" text-anchor="middle" font-size="15" fill="#ffffff">2</text>
+<circle class="dot" cx="265.0" cy="133.0" r="16" fill="#2b7cc2"/>
+<text class="dot-t b" x="265.0" y="138.0" text-anchor="middle" font-size="15" fill="#ffffff">3</text>
+<circle class="dot" cx="265.0" cy="187.0" r="16" fill="#2b7cc2"/>
+<text class="dot-t b" x="265.0" y="192.0" text-anchor="middle" font-size="15" fill="#ffffff">4</text>
+<circle class="dot" cx="211.0" cy="241.0" r="16" fill="#2b7cc2"/>
+<text class="dot-t b" x="211.0" y="246.0" text-anchor="middle" font-size="15" fill="#ffffff">5</text>
+<text class="m" x="240" y="392" text-anchor="middle" font-size="14">რაც უფრო ძლიერია უჯრის ფერი, მით მაღალია ნამრავლი</text>
+<text class="b" x="32" y="428" text-anchor="start" font-size="15">ხუთი რისკი, ნამრავლის მიხედვით:</text>
+<circle class="dot" cx="44" cy="453" r="11" fill="#2b7cc2"/>
+<text class="dot-t b" x="44" y="458" text-anchor="middle" font-size="13" fill="#ffffff">1</text>
+<text x="66" y="458" text-anchor="start" font-size="15">სუსტი ადმინის პაროლი: 4 × 4 = 16</text>
+<circle class="dot" cx="44" cy="479" r="11" fill="#2b7cc2"/>
+<text class="dot-t b" x="44" y="484" text-anchor="middle" font-size="13" fill="#ffffff">2</text>
+<text x="66" y="484" text-anchor="start" font-size="15">ასლების არარსებობა: 3 × 5 = 15</text>
+<circle class="dot" cx="44" cy="505" r="11" fill="#2b7cc2"/>
+<text class="dot-t b" x="44" y="510" text-anchor="middle" font-size="13" fill="#ffffff">3</text>
+<text x="66" y="510" text-anchor="start" font-size="15">ძველი დანამატი: 3 × 4 = 12</text>
+<circle class="dot" cx="44" cy="531" r="11" fill="#2b7cc2"/>
+<text class="dot-t b" x="44" y="536" text-anchor="middle" font-size="13" fill="#ffffff">4</text>
+<text x="66" y="536" text-anchor="start" font-size="15">ფიშინგი თანამშრომლებზე: 3 × 3 = 9</text>
+<circle class="dot" cx="44" cy="557" r="11" fill="#2b7cc2"/>
+<text class="dot-t b" x="44" y="562" text-anchor="middle" font-size="13" fill="#ffffff">5</text>
+<text x="66" y="562" text-anchor="start" font-size="15">დენის გათიშვა: 2 × 2 = 4</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="t d">
+<title id="t">პროექტის დადასტურების წესი: ჯამი ≥ 8 და ეთიკა ≥ 2</title>
+<desc id="d">სქემა: ხუთი კრიტერიუმი (სიზუსტე, პრაქტიკულობა, სიცხადე, ეთიკა, სტრუქტურა) თითო 0-დან 3 ქულამდე, მაქსიმუმ 15; პროექტი დადასტურდება, თუ ჯამი მინიმუმ 8-ია და ეთიკა მინიმუმ 2; სხვა შემთხვევაში მენტორი წერს შენიშვნებს და ხელახლა აგზავნი.</desc>
+<rect x="1" y="1" width="758" height="398" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<rect x="20" y="24" width="130" height="62" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="85.0" y="50.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">სიზუსტე</text>
+<text x="85.0" y="68.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">0 – 3</text>
+<line x1="85" y1="86" x2="380" y2="130" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="166" y="24" width="130" height="62" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="231.0" y="50.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">პრაქტიკულობა</text>
+<text x="231.0" y="68.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">0 – 3</text>
+<line x1="231" y1="86" x2="380" y2="130" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="312" y="24" width="130" height="62" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="377.0" y="50.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">სიცხადე</text>
+<text x="377.0" y="68.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">0 – 3</text>
+<line x1="377" y1="86" x2="380" y2="130" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="458" y="24" width="130" height="62" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="523.0" y="50.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">ეთიკა</text>
+<text x="523.0" y="68.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">0 – 3</text>
+<line x1="523" y1="86" x2="380" y2="130" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<rect x="604" y="24" width="130" height="62" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="669.0" y="50.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">სტრუქტურა</text>
+<text x="669.0" y="68.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">0 – 3</text>
+<line x1="669" y1="86" x2="380" y2="130" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="250" y="130" width="260" height="50" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="380.0" y="160.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">ჯამი (მაქსიმუმ 15)</text>
+<text x="190" y="222" text-anchor="end" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">ორივე პირობა ერთად:</text>
+<rect x="210" y="200" width="150" height="44" rx="8" fill="white" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="285.0" y="227.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">ჯამი ≥ 8</text>
+<text x="380" y="228" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1c1f22">და</text>
+<rect x="400" y="200" width="150" height="44" rx="8" fill="white" stroke="#c05621" stroke-width="1.5"/>
+<text x="475.0" y="227.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">ეთიკა ≥ 2</text>
+<line x1="380" y1="180" x2="380" y2="200" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="60" y="300" width="280" height="60" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="200.0" y="325.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">დადასტურდა</text>
+<text x="200.0" y="343.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">პროექტი ჩაითვლება</text>
+<rect x="390" y="300" width="350" height="60" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="565.0" y="326.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1c1f22">არ დადასტურდა</text>
+<text x="565.0" y="342.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">შენიშვნები → გასწორება → ხელახლა გაგზავნა</text>
+<line x1="300" y1="244" x2="200" y2="300" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="230" y="266" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">კი</text>
+<line x1="460" y1="244" x2="540" y2="300" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="520" y="266" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">არა</text>
+<text x="380" y="388" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">მაღალი ჯამი ეთიკის სისუსტეს ვერ ანაზღაურებს: ეთიკა ≥ 2 ცალკე პირობაა.</text>
+</svg>

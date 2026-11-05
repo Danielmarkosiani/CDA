@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" width="820" height="360" role="img" aria-labelledby="t d">
+<title id="t">ლოგების გზა: სერვისიდან ანალიზამდე</title>
+<desc id="d">სერვისი ლოგს წერს, სისტემა მას ფაილში ან ჟურნალში ინახავს, ანალიზი კი grep, sort და uniq-ით ხდება.</desc>
+<rect x="1" y="1" width="818" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">ლოგი ფაქტების ჩანაწერია, ანალიზი კი შენი მუშაობაა</text>
+<rect x="30" y="80" width="170" height="90" rx="8" fill="#dbeaf7" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="115" y="118" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">სერვისი</text>
+<text x="115" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">მაგ. SSH, ვებსერვერი</text>
+<line x1="200" y1="125" x2="225" y2="125" stroke="#5d646b" stroke-width="2" marker-end="url(#mg)"/>
+<rect x="225" y="80" width="170" height="90" rx="8" fill="#f2f3f4" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="310" y="118" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ლოგის ფაილი</text>
+<text x="310" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">/var/log/... ან journalctl</text>
+<line x1="395" y1="125" x2="420" y2="125" stroke="#5d646b" stroke-width="2" marker-end="url(#mg)"/>
+<rect x="420" y="80" width="170" height="90" rx="8" fill="#e2f1e8" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="505" y="118" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">grep</text>
+<text x="505" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">ფილტრავს ხაზებს</text>
+<line x1="590" y1="125" x2="615" y2="125" stroke="#5d646b" stroke-width="2" marker-end="url(#mg)"/>
+<rect x="615" y="80" width="170" height="90" rx="8" fill="#fdebd9" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="700" y="118" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">sort | uniq -c</text>
+<text x="700" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">ითვლის გამეორებებს</text>
+<rect x="30" y="220" width="760" height="100" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="410" y="248" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">შედეგი: რომელი მისამართიდან იყო რამდენი წარუმატებელი შესვლა</text>
+<text x="410" y="276" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="12" fill="#1c1f22">5 192.0.2.5</text>
+<text x="410" y="298" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">(მაგალითის მისამართები დოკუმენტაციის დიაპაზონიდანაა)</text>
+</svg>

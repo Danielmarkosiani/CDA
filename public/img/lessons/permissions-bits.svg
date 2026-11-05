@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" width="820" height="380" role="img" aria-labelledby="t d">
+<title id="t">ფაილის უფლებები: -rw-r-----</title>
+<desc id="d">ათი სიმბოლო: ტიპი, მფლობელის, ჯგუფისა და დანარჩენების უფლებები. r=4, w=2, x=1; 640 ნიშნავს rw-, r--, ---.</desc>
+<rect x="1" y="1" width="818" height="378" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">როგორ იკითხება ls -l-ის პირველი სვეტი</text>
+<rect x="100" y="60" width="52" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="126" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="160" y="60" width="52" height="52" rx="8" fill="#dbeaf7" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="186" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">r</text>
+<rect x="220" y="60" width="52" height="52" rx="8" fill="#dbeaf7" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="246" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">w</text>
+<rect x="280" y="60" width="52" height="52" rx="8" fill="#dbeaf7" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="306" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="340" y="60" width="52" height="52" rx="8" fill="#e2f1e8" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="366" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">r</text>
+<rect x="400" y="60" width="52" height="52" rx="8" fill="#e2f1e8" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="426" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="460" y="60" width="52" height="52" rx="8" fill="#e2f1e8" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="486" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="520" y="60" width="52" height="52" rx="8" fill="#fdebd9" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="546" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="580" y="60" width="52" height="52" rx="8" fill="#fdebd9" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="606" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<rect x="640" y="60" width="52" height="52" rx="8" fill="#fdebd9" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="666" y="94" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#1c1f22">-</text>
+<path d="M100 124 v10 H152 v-10" fill="none" stroke="#5d646b" stroke-width="2"/>
+<text x="126.0" y="158" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">ტიპი</text>
+<text x="126.0" y="178" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="11.5" fill="#5d646b">- ფაილი</text>
+<path d="M160 124 v10 H328 v-10" fill="none" stroke="#2b7cc2" stroke-width="2"/>
+<text x="244.0" y="158" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">მფლობელი (user)</text>
+<text x="244.0" y="178" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="11.5" fill="#5d646b">rw- = 4+2+0 = 6</text>
+<path d="M340 124 v10 H508 v-10" fill="none" stroke="#2f855a" stroke-width="2"/>
+<text x="424.0" y="158" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">ჯგუფი (group)</text>
+<text x="424.0" y="178" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="11.5" fill="#5d646b">r-- = 4+0+0 = 4</text>
+<path d="M520 124 v10 H688 v-10" fill="none" stroke="#c05621" stroke-width="2"/>
+<text x="604.0" y="158" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">დანარჩენები (others)</text>
+<text x="604.0" y="178" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="11.5" fill="#5d646b">--- = 0+0+0 = 0</text>
+<text x="410" y="232" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#1c1f22">chmod 640 ფაილი</text>
+<rect x="60" y="260" width="700" height="90" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="410" y="288" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">r (read) = 4 · w (write) = 2 · x (execute) = 1</text>
+<text x="410" y="314" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ფაილზე: r კითხვა, w ცვლილება, x გაშვება</text>
+<text x="410" y="334" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">საქაღალდეზე: x ნიშნავს შიგნით შესვლას</text>
+</svg>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ka"><head><meta charset="utf-8"><title>შედეგი</title>
+<!-- html-სავარჯიშოს ცოცხალი ნახვა. ეს გვერდი ცალკე URL-ია საკუთარი CSP ჰედერით (server.py: SANDBOX_CSP), ამიტომ მშობლის პოლიტიკაზე არ არის დამოკიდებული.
+     მოსწავლის HTML იწერება ამ დოკუმენტში document.write-ით, ანუ ექვემდებარება მხოლოდ ამ გვერდის CSP-ს: ინლაინ სკრიპტი/სტილი ვარგა,
+     გარე რესურსი, ქსელი, ფორმის გაგზავნა და iframe აკრძალულია. iframe-ის sandbox="allow-scripts" გამორიცხავს same-origin-ს. -->
+<script>
+(function () {
+  'use strict';
+  function run(checks) {
+    return checks.map(function (c) {
+      try {
+        var els = Array.prototype.slice.call(document.querySelectorAll(c.selector));
+        var ok = els.length >= (c.min || 1);
+        if (ok && c.text_contains) ok = els.some(function (e) { return e.textContent.indexOf(c.text_contains) >= 0; });
+        if (ok && c.attr) ok = els.some(function (e) {
+          var v = e.getAttribute(c.attr);
+          if (v === null) return false;
+          return c.attr_startswith ? v.indexOf(c.attr_startswith) === 0 : v.trim() !== '';
+        });
+        return !!ok;
+      } catch (x) { return false; }
+    });
+  }
+  addEventListener('message', function (e) {
+    if (e.source !== parent) return;
+    var m = e.data;
+    if (!m || m.t !== 'render' || typeof m.html !== 'string') return;
+    var checks = Array.isArray(m.checks) ? m.checks : null;
+    document.open(); document.write(m.html.slice(0, 20000)); document.close();
+    if (checks) setTimeout(function () { parent.postMessage({ t: 'checks', results: run(checks) }, '*'); }, 350);
+  });
+  parent.postMessage({ t: 'pready' }, '*');
+})();
+</script></head><body></body></html>

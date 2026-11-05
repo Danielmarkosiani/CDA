@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" width="820" height="360" role="img" aria-labelledby="t d">
+<title id="t">ფენოვანი დაცვა</title>
+<desc id="d">ფენები გარედან შიგნით: ადამიანები და წესები, ქსელი, მოწყობილობა, აპლიკაცია, მონაცემი. ერთი ფენის გატეხვა მონაცემამდე პირდაპირ გზას არ იძლევა.</desc>
+<rect x="1" y="1" width="818" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">ფენოვანი დაცვა (defense in depth)</text>
+<rect x="30" y="56" width="760" height="274" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="44" y="80" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ადამიანები და წესები: ტრენინგი, წვდომის წესები</text>
+<rect x="80" y="100" width="660" height="218" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="94" y="124" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ქსელი: ფაიერვოლი, Wi‑Fi დაცვა</text>
+<rect x="130" y="144" width="560" height="162" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="144" y="168" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">მოწყობილობა: განახლებები, დისკის დაშიფვრა</text>
+<rect x="180" y="188" width="460" height="106" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="194" y="212" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">აპლიკაცია: ავტორიზაცია, შეყვანის შემოწმება</text>
+<rect x="230" y="232" width="360" height="50" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="244" y="256" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">მონაცემი: დაშიფვრა, ასლები</text>
+</svg>

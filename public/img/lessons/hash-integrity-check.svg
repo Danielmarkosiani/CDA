@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d">
+<title id="t">SHA-256: ერთი ასოს ცვლილება ჰეშს მთლიანად ცვლის</title>
+<desc id="d">სქემა: ტექსტი hello და ტექსტი hellp სხვადასხვა SHA-256 ჰეშს იძლევა (2cf24dba... და fdd7585e...); გადმოწერილი ფაილის ჰეში უნდა ემთხვეოდეს ოფიციალურ გვერდზე გამოქვეყნებულს.</desc>
+<rect x="1" y="1" width="758" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ერთი და იგივე შესატანი = ერთი და იგივე ჰეში; ერთი ასოს ცვლილება = სრულიად სხვა ჰეში</text>
+<rect x="20" y="60" width="170" height="56" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="105.0" y="83.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">შესატანი</text>
+<text x="105.0" y="101.9" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">"hello"</text>
+<rect x="250" y="60" width="130" height="56" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="315.0" y="93.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">SHA-256</text>
+<rect x="440" y="60" width="300" height="56" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="590.0" y="84.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ჰეში (64 ჰექს. სიმბოლო)</text>
+<text x="590.0" y="101.0" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" fill="#5d646b">2cf24dba5fb0a30e…</text>
+<line x1="190" y1="88" x2="250" y2="88" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="380" y1="88" x2="440" y2="88" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<rect x="20" y="150" width="170" height="56" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="105.0" y="173.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">შესატანი</text>
+<text x="105.0" y="191.9" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#5d646b">"hellp"</text>
+<rect x="250" y="150" width="130" height="56" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="315.0" y="183.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">SHA-256</text>
+<rect x="440" y="150" width="300" height="56" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="590.0" y="174.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ჰეში (64 ჰექს. სიმბოლო)</text>
+<text x="590.0" y="191.1" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" fill="#5d646b">fdd7585e08c4e2af…</text>
+<line x1="190" y1="178" x2="250" y2="178" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<line x1="380" y1="178" x2="440" y2="178" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="380" y="244" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">გადმოწერილი ფაილის შემოწმება</text>
+<rect x="20" y="264" width="220" height="56" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="130.0" y="288.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">შენი გამოთვლილი ჰეში</text>
+<text x="130.0" y="305.1" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" fill="#5d646b">file_sha256(...)</text>
+<rect x="520" y="264" width="220" height="56" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="630.0" y="288.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ოფიციალური გვერდის</text>
+<text x="630.0" y="305.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">გამოქვეყნებული ჰეში</text>
+<line x1="240" y1="292" x2="520" y2="292" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="380" y="284" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ემთხვევა?</text>
+<text x="380" y="346" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ემთხვევა → ფაილი არ შეცვლილა · არ ემთხვევა → ნუ გახსნი</text>
+</svg>

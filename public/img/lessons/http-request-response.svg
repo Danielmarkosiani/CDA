@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-labelledby="t d">
+<title id="t">HTTPS მოთხოვნის გზა: DNS, TCP, TLS, HTTP</title>
+<desc id="d">თანმიმდევრობის დიაგრამა: ბრაუზერი DNS-ით პოულობს მისამართს, 443 პორტზე ამყარებს კავშირს, TLS-ით ამოწმებს სერტიფიკატს და აგზავნის GET მოთხოვნას; სერვერი 200 OK-ით პასუხობს.</desc>
+<rect x="1" y="1" width="818" height="468" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">რა ხდება, როცა ბრაუზერში https://example.com/index.html იხსნება</text>
+<rect x="35" y="52" width="150" height="50" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="110" y="74" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">ბრაუზერი</text>
+<text x="110" y="92" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(client)</text>
+<line x1="110" y1="102" x2="110" y2="430" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="335" y="52" width="150" height="50" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="410" y="74" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">DNS სერვერი</text>
+<text x="410" y="92" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(recursive resolver)</text>
+<line x1="410" y1="102" x2="410" y2="430" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="635" y="52" width="150" height="50" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="710" y="74" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">ვებსერვერი</text>
+<text x="710" y="92" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(192.0.2.10)</text>
+<line x1="710" y1="102" x2="710" y2="430" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<line x1="116" y1="150" x2="404" y2="150" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<text x="260.0" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">1.</tspan> example.com-ის IP?</text>
+<line x1="404" y1="196" x2="116" y2="196" stroke="#2f855a" stroke-width="2" marker-end="url(#mn)"/>
+<text x="260.0" y="188" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2f855a">2.</tspan> 192.0.2.10</text>
+<line x1="116" y1="242" x2="704" y2="242" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<text x="410.0" y="234" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">3.</tspan> TCP კავშირი, პორტი 443</text>
+<line x1="116" y1="288" x2="704" y2="288" stroke="#5d646b" stroke-width="2" marker-start="url(#mg)" marker-end="url(#mg)"/>
+<text x="410.0" y="280" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#5d646b">4.</tspan> TLS: სერტიფიკატის შემოწმება და დაშიფვრა</text>
+<line x1="116" y1="334" x2="704" y2="334" stroke="#2b7cc2" stroke-width="2" marker-end="url(#mb)"/>
+<text x="410.0" y="326" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">5.</tspan> GET /index.html (დაშიფრულად)</text>
+<line x1="704" y1="380" x2="116" y2="380" stroke="#2f855a" stroke-width="2" marker-end="url(#mn)"/>
+<text x="410.0" y="372" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2f855a">6.</tspan> 200 OK + გვერდის შიგთავსი</text>
+<text x="24" y="444" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">192.0.2.10: დოკუმენტაციისთვის დარეზერვებული მისამართი (RFC 5737).</text>
+<text x="24" y="460" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">ლურჯი: მოთხოვნა · მწვანე: პასუხი · ნაცრისფერი: დაშიფვრის დამყარება.</text>
+</svg>

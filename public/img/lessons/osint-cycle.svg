@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 496" width="480" height="496" role="img" aria-labelledby="t d">
+<title id="t">OSINT-ის ციკლი: ხუთი ნაბიჯი</title>
+<desc id="d">ხუთი ნაბიჯი ზემოდან ქვემოთ: 1 დაგეგმვა (რა კითხვას ვპასუხობთ?), 2 შეგროვება (ღია წყაროებიდან), 3 დამუშავება (დალაგება და ფორმატირება), 4 ანალიზი (რა დადასტურდა და რა არა?), 5 მოხსენება (წყაროებით გამყარებული დასკვნა). ისარი მეხუთე ნაბიჯიდან პირველზე ბრუნდება: ციკლი.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d8dbde}
+text{font-family:'Noto Sans Georgian','Sylfaen','Segoe UI',sans-serif;fill:#1c1f22}
+.mono{font-family:ui-monospace,Consolas,Menlo,'DejaVu Sans Mono',monospace}
+.m{fill:#5d646b}.b{font-weight:700}
+.tb{fill:#1f6aa8}.to{fill:#a8460f}.tg{fill:#25704a}
+.halo{stroke:#ffffff;stroke-width:5;paint-order:stroke;stroke-linejoin:round}
+.fb{fill:#dbeaf7;stroke:#2b7cc2}.fg{fill:#e2f1e8;stroke:#2f855a}.fo{fill:#fdebd9;stroke:#c05621}.fy{fill:#f2f3f4;stroke:#5d646b}
+.lb{stroke:#2b7cc2}.lg{stroke:#2f855a}.lo{stroke:#c05621}.ly{stroke:#5d646b}
+.mb{fill:#2b7cc2}.mg{fill:#2f855a}.mo{fill:#c05621}.my{fill:#5d646b}
+.gc{fill:#2b7cc2}.gl{stroke:#9aa3ab}
+.dot{fill:#2b7cc2}.dot-t{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1c1f22;stroke:#3a4047}
+text{fill:#eceef0}
+.m{fill:#adb4bb}
+.tb{fill:#7dbdf0}.to{fill:#f4a868}.tg{fill:#6fcb98}
+.halo{stroke:#1c1f22}
+.fb{fill:#1d3a56;stroke:#6db3ec}.fg{fill:#1c3b2a;stroke:#5fc08a}.fo{fill:#4a2c17;stroke:#f0a060}.fy{fill:#2a2f34;stroke:#8d969e}
+.lb{stroke:#6db3ec}.lg{stroke:#5fc08a}.lo{stroke:#f0a060}.ly{stroke:#8d969e}
+.mb{fill:#6db3ec}.mg{fill:#5fc08a}.mo{fill:#f0a060}.my{fill:#8d969e}
+.gc{fill:#6db3ec}.gl{stroke:#4a525a}
+.dot{fill:#6db3ec}.dot-t{fill:#10202f}
+}
+</style>
+<rect class="bg" x="1" y="1" width="478" height="494" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mb" d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mg" d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mo" d="M0 0L10 5L0 10z" fill="#c05621"/></marker><marker id="my" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="my" d="M0 0L10 5L0 10z" fill="#5d646b"/></marker></defs>
+<text class="b" x="240" y="28" text-anchor="middle" font-size="16">OSINT-ის ციკლი: ხუთი ნაბიჯი</text>
+<rect class="fb" x="84" y="52" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="234" y="76.0" text-anchor="middle" font-size="15">დაგეგმვა</text>
+<text class="m" x="234" y="98.0" text-anchor="middle" font-size="14">რა კითხვას ვპასუხობთ?</text>
+<circle class="dot" cx="50" cy="82" r="18" fill="#2b7cc2"/>
+<text class="dot-t b" x="50" y="88" text-anchor="middle" font-size="16" fill="#ffffff">1</text>
+<path class="ly" d="M234,112 L234,140" fill="none" stroke="#5d646b" stroke-width="2" marker-end="url(#my)"/>
+<rect class="fb" x="84" y="140" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="234" y="164.0" text-anchor="middle" font-size="15">შეგროვება</text>
+<text class="m" x="234" y="186.0" text-anchor="middle" font-size="14">ინფორმაცია ღია წყაროებიდან</text>
+<circle class="dot" cx="50" cy="170" r="18" fill="#2b7cc2"/>
+<text class="dot-t b" x="50" y="176" text-anchor="middle" font-size="16" fill="#ffffff">2</text>
+<path class="ly" d="M234,200 L234,228" fill="none" stroke="#5d646b" stroke-width="2" marker-end="url(#my)"/>
+<rect class="fb" x="84" y="228" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="234" y="252.0" text-anchor="middle" font-size="15">დამუშავება</text>
+<text class="m" x="234" y="274.0" text-anchor="middle" font-size="14">დალაგება და ფორმატირება</text>
+<circle class="dot" cx="50" cy="258" r="18" fill="#2b7cc2"/>
+<text class="dot-t b" x="50" y="264" text-anchor="middle" font-size="16" fill="#ffffff">3</text>
+<path class="ly" d="M234,288 L234,316" fill="none" stroke="#5d646b" stroke-width="2" marker-end="url(#my)"/>
+<rect class="fb" x="84" y="316" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="234" y="340.0" text-anchor="middle" font-size="15">ანალიზი</text>
+<text class="m" x="234" y="362.0" text-anchor="middle" font-size="14">რა დადასტურდა და რა არა?</text>
+<circle class="dot" cx="50" cy="346" r="18" fill="#2b7cc2"/>
+<text class="dot-t b" x="50" y="352" text-anchor="middle" font-size="16" fill="#ffffff">4</text>
+<path class="ly" d="M234,376 L234,404" fill="none" stroke="#5d646b" stroke-width="2" marker-end="url(#my)"/>
+<rect class="fb" x="84" y="404" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="b" x="234" y="428.0" text-anchor="middle" font-size="15">მოხსენება</text>
+<text class="m" x="234" y="450.0" text-anchor="middle" font-size="14">წყაროებით გამყარებული დასკვნა</text>
+<circle class="dot" cx="50" cy="434" r="18" fill="#2b7cc2"/>
+<text class="dot-t b" x="50" y="440" text-anchor="middle" font-size="16" fill="#ffffff">5</text>
+<path class="ly" d="M384,434 L436,434 L436,82 L390,82" fill="none" stroke="#5d646b" stroke-width="2" marker-end="url(#my)"/>
+<text class="m" transform="translate(458 258) rotate(-90)" text-anchor="middle" font-size="14">ციკლი</text>
+</svg>

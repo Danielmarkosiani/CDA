@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-labelledby="t d">
+<title id="t">if / elif / else: პირობები ზემოდან ქვემოთ მოწმდება</title>
+<desc id="d">სქემა: ასაკი age ოთხ შემოწმებას გადის თანმიმდევრობით; პირველი მართალი პირობა იმარჯვებს და დანარჩენი აღარ მოწმდება.</desc>
+<rect x="1" y="1" width="758" height="438" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="380" y="34" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="15" font-weight="700" fill="#1c1f22">age = int(input())</text>
+<rect x="90" y="62" width="220" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="200.0" y="93.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">age &lt; 0 ?</text>
+<rect x="450" y="62" width="220" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="560.0" y="93.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">არასწორი ასაკი</text>
+<line x1="310" y1="88" x2="450" y2="88" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="380" y="80" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">კი</text>
+<line x1="200" y1="114" x2="200" y2="142" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="222" y="134" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">არა</text>
+<rect x="90" y="142" width="220" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="200.0" y="173.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">age &gt;= 18 ?</text>
+<rect x="450" y="142" width="220" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="560.0" y="173.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">სრულწლოვანი ხარ</text>
+<line x1="310" y1="168" x2="450" y2="168" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="380" y="160" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">კი</text>
+<line x1="200" y1="194" x2="200" y2="222" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="222" y="214" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">არა</text>
+<rect x="90" y="222" width="220" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="200.0" y="253.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">age &gt;= 13 ?</text>
+<rect x="450" y="222" width="220" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="560.0" y="253.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">მოზარდი ხარ</text>
+<line x1="310" y1="248" x2="450" y2="248" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="380" y="240" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">კი</text>
+<line x1="200" y1="274" x2="200" y2="302" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="222" y="294" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">არა</text>
+<rect x="90" y="302" width="220" height="52" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="200.0" y="333.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">else (დანარჩენი)</text>
+<rect x="450" y="302" width="220" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="560.0" y="333.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">ბავშვი ხარ</text>
+<line x1="310" y1="328" x2="450" y2="328" stroke="#2f855a" stroke-width="2" marker-end="url(#agreen)"/>
+<text x="380" y="320" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">თუ არცერთი</text>
+<line x1="200" y1="38" x2="200" y2="62" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="380" y="400" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ერთ გაშვებაზე სრულდება ზუსტად ერთი ბლოკი: ის, რომლის პირობაც პირველმა გაიარა.</text>
+<text x="380" y="424" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ლურჯი = პირობა · მწვანე = რას დაბეჭდავს</text>
+</svg>

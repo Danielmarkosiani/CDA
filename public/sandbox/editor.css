@@ -1,0 +1,29 @@
+/* რედაქტორის სტილი (იზოლირებული გვერდი; თემა მშობლისგან მოდის: html[data-theme]). ფერები იგივეა, რაც საიტზე. */
+:root{--bg:#f2f3f4;--card:#fff;--ink:#1c1f22;--mu:#5d646b;--ln:#d8dbde;--pri:#1f6aa8;--inv:#fff;--ok:#25704a;--bad:#b3261e;--tint:#e9eff4;--code:#fbfbfc}
+:root[data-theme=dark]{--bg:#141516;--card:#1c1e20;--ink:#e8eaec;--mu:#9da3a9;--ln:#2e3134;--pri:#7dbdf0;--inv:#10202f;--ok:#6fcb98;--bad:#f2928b;--tint:#22303b;--code:#16181a}
+*{box-sizing:border-box}
+html,body{margin:0;background:transparent;color:var(--ink);font:15px/1.5 system-ui,'Noto Sans Georgian','Sylfaen','Segoe UI',sans-serif}
+.ex{border:1.5px solid var(--ln);border-radius:10px;background:var(--card);padding:10px}
+.bar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:8px}
+#status{color:var(--mu);font-size:14px}
+.grp{display:flex;gap:8px}
+.b{font:inherit;font-weight:600;padding:7px 16px;border-radius:8px;border:1.5px solid var(--ln);background:var(--card);color:var(--ink);cursor:pointer}
+.b:hover:not(:disabled){border-color:var(--pri)}
+.b.pri{background:var(--pri);border-color:var(--pri);color:var(--inv)}
+.b:disabled{opacity:.5;cursor:not-allowed}
+.b:focus-visible,textarea:focus-visible,.out:focus-visible{outline:3px solid var(--pri);outline-offset:1px}
+.cols{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:640px){.cols{grid-template-columns:1fr 1fr}}
+.pane{min-width:0}
+.lab{display:block;font-size:13px;font-weight:700;color:var(--mu);margin-bottom:4px}
+textarea,.out{width:100%;margin:0;border:1.5px solid var(--ln);border-radius:8px;background:var(--code);color:var(--ink);font:14px/1.55 ui-monospace,'Cascadia Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;padding:10px;tab-size:4}
+textarea{min-height:260px;resize:vertical;white-space:pre;overflow:auto}
+.out{min-height:260px;max-height:420px;overflow:auto;white-space:pre-wrap;word-break:break-word}
+.out .er{color:var(--bad)}.out .mu{color:var(--mu)}
+.prev{display:block;width:100%;height:260px;border:1.5px solid var(--ln);border-radius:8px;background:#fff}
+.tip{margin:4px 0 0;font-size:12.5px;color:var(--mu)}
+.res{margin-top:10px;border-top:1px solid var(--ln);padding-top:8px}
+.res ul{list-style:none;margin:0;padding:0}.res li{display:flex;gap:8px;padding:2px 0}
+.res .y{color:var(--ok);font-weight:700}.res .n{color:var(--bad);font-weight:700}
+.res .sum{font-weight:700;margin:0 0 4px}
+.note{margin:8px 0 0;font-size:12.5px;color:var(--mu)}

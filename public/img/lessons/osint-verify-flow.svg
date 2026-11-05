@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-labelledby="t d">
+<title id="t">გადამოწმების ოთხი ნაბიჯი (SIFT) და სამი შესაძლო დასკვნა</title>
+<desc id="d">სქემა: Stop, Investigate the source, Find better coverage, Trace to the original; შემდეგ დასკვნა: დადასტურებულია, არ დადასტურდა ან ყალბია; თუ ვერ გადაამოწმე, არ გააზიარო.</desc>
+<rect x="1" y="1" width="758" height="328" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<rect x="20" y="30" width="160" height="92" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="100.0" y="71.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">S</text>
+<text x="100.0" y="89.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">შეჩერდი</text>
+<line x1="180" y1="76" x2="204" y2="76" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="204" y="30" width="160" height="92" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="284.0" y="71.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">I</text>
+<text x="284.0" y="89.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">შეამოწმე წყარო</text>
+<line x1="364" y1="76" x2="388" y2="76" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="388" y="30" width="160" height="92" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="468.0" y="71.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">F</text>
+<text x="468.0" y="89.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">მოძებნე სხვა გაშუქება</text>
+<line x1="548" y1="76" x2="572" y2="76" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<rect x="572" y="30" width="160" height="92" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="652.0" y="71.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">T</text>
+<text x="652.0" y="89.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">მივყევი ორიგინალს</text>
+<text x="380" y="160" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">ნაბიჯების შემდეგ ჩაწერე დასკვნა წყაროებით:</text>
+<rect x="20" y="184" width="220" height="64" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="130.0" y="211.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">დადასტურებულია</text>
+<text x="130.0" y="229.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">მინ. 2 დამოუკიდებელი წყარო</text>
+<rect x="270" y="184" width="220" height="64" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="380.0" y="211.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">არ დადასტურდა</text>
+<text x="380.0" y="229.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">ვერც ერთი დამოუკიდებელი წყარო</text>
+<rect x="520" y="184" width="220" height="64" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="630.0" y="211.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">ყალბია</text>
+<text x="630.0" y="229.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">ორიგინალი სხვას ამბობს</text>
+<text x="380" y="290" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" font-weight="700" fill="#1c1f22">ვერ გადაამოწმე → არ გააზიარო</text>
+<text x="380" y="312" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ლურჯი = ნაბიჯები · მწვანე/ნაცრისფერი/ნარინჯისფერი = დასკვნები</text>
+</svg>

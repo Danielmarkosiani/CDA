@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-labelledby="t d">
+<title id="t">DNS-ის გზა: როგორ ხდება example.com-დან IP მისამართი</title>
+<desc id="d">თანმიმდევრობის დიაგრამა: ბრაუზერი ეკითხება რეკურსიულ DNS სერვერს, ის კი თანმიმდევრულად root, TLD და ავტორიტეტულ სერვერს, შემდეგ პასუხს აბრუნებს.</desc>
+<defs><marker id="areq" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="aref" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="aans" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker></defs>
+<rect x="1" y="1" width="818" height="518" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<text x="24" y="32" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">DNS-ის გზა: example.com → IP მისამართი</text>
+<rect x="20" y="52" width="140" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde"/>
+<text x="90" y="75" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">შენი კომპიუტერი</text>
+<text x="90" y="93" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(Browser, OS)</text>
+<line x1="90" y1="104" x2="90" y2="470" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="180" y="52" width="140" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde"/>
+<text x="250" y="75" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">რეკურსიული DNS</text>
+<text x="250" y="93" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(Recursive resolver)</text>
+<line x1="250" y1="104" x2="250" y2="470" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="340" y="52" width="140" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde"/>
+<text x="410" y="75" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">Root სერვერი</text>
+<text x="410" y="93" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(Root server)</text>
+<line x1="410" y1="104" x2="410" y2="470" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="500" y="52" width="140" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde"/>
+<text x="570" y="75" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">TLD სერვერი</text>
+<text x="570" y="93" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(.com)</text>
+<line x1="570" y1="104" x2="570" y2="470" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<rect x="660" y="52" width="140" height="52" rx="8" fill="#f2f3f4" stroke="#d8dbde"/>
+<text x="730" y="75" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12.5" font-weight="700" fill="#1c1f22">ავტორიტეტული</text>
+<text x="730" y="93" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11" fill="#5d646b">(Authoritative)</text>
+<line x1="730" y1="104" x2="730" y2="470" stroke="#b9bec3" stroke-dasharray="4 4"/>
+<line x1="96" y1="150" x2="244" y2="150" stroke="#2b7cc2" stroke-width="2" marker-end="url(#areq)"/>
+<text x="170.0" y="142" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">1.</tspan> example.com-ის IP?</text>
+<line x1="256" y1="190" x2="404" y2="190" stroke="#2b7cc2" stroke-width="2" marker-end="url(#areq)"/>
+<text x="330.0" y="182" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">2.</tspan> .com-ის სერვერი?</text>
+<line x1="404" y1="230" x2="256" y2="230" stroke="#5d646b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#aref)"/>
+<text x="330.0" y="222" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#5d646b">3.</tspan> → იკითხე TLD-ს</text>
+<line x1="256" y1="270" x2="564" y2="270" stroke="#2b7cc2" stroke-width="2" marker-end="url(#areq)"/>
+<text x="410.0" y="262" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">4.</tspan> example.com-ის სერვერი?</text>
+<line x1="564" y1="310" x2="256" y2="310" stroke="#5d646b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#aref)"/>
+<text x="410.0" y="302" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#5d646b">5.</tspan> → იკითხე ავტორიტეტულს</text>
+<line x1="256" y1="350" x2="724" y2="350" stroke="#2b7cc2" stroke-width="2" marker-end="url(#areq)"/>
+<text x="490.0" y="342" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2b7cc2">6.</tspan> example.com-ის IP?</text>
+<line x1="724" y1="390" x2="256" y2="390" stroke="#2f855a" stroke-width="2" marker-end="url(#aans)"/>
+<text x="490.0" y="382" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2f855a">7.</tspan> 192.0.2.10</text>
+<line x1="244" y1="430" x2="96" y2="430" stroke="#2f855a" stroke-width="2" marker-end="url(#aans)"/>
+<text x="170.0" y="422" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#1c1f22"><tspan font-weight="700" fill="#2f855a">8.</tspan> 192.0.2.10</text>
+<text x="24" y="488" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">192.0.2.10 დოკუმენტაციისთვის დარეზერვებული მისამართია (RFC 5737), ნამდვილი საიტის IP არ არის.</text>
+<text x="24" y="506" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">ლურჯი: შეკითხვა · ნაცრისფერი: მიმართვა (referral) · მწვანე: პასუხი.</text>
+</svg>

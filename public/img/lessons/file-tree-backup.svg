@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" role="img" aria-labelledby="t d">
+<title id="t">გზები ფაილურ სისტემაში და სარეზერვო ასლების 3-2-1 წესი</title>
+<desc id="d">მარცხნივ საქაღალდეების ხე აბსოლუტური და ფარდობითი გზით, მარჯვნივ 3-2-1: სამი ასლი, ორი სხვადასხვა მატარებელი, ერთი სხვა ადგილას.</desc>
+<rect x="1" y="1" width="818" height="428" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">სად არის ფაილი და სად ინახება ასლები</text>
+<rect x="30" y="56" width="390" height="330" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="225" y="80" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">საქაღალდეების ხე</text>
+<text x="70" y="108" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">/</text>
+<text x="110" y="144" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">home</text>
+<text x="150" y="180" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">ana</text>
+<text x="190" y="216" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">docs</text>
+<text x="230" y="252" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" fill="#1c1f22">notes.txt</text>
+<text x="190" y="288" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#1c1f22">photos</text>
+<line x1="75" y1="114" x2="105" y2="138" stroke="#b9bec3" stroke-width="1.5"/>
+<line x1="115" y1="150" x2="145" y2="174" stroke="#b9bec3" stroke-width="1.5"/>
+<line x1="155" y1="186" x2="185" y2="210" stroke="#b9bec3" stroke-width="1.5"/>
+<line x1="195" y1="222" x2="225" y2="246" stroke="#b9bec3" stroke-width="1.5"/>
+<line x1="155" y1="186" x2="185" y2="282" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="40" y="330" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="12" fill="#1c1f22">აბსოლუტური: /home/ana/docs/notes.txt</text>
+<text x="40" y="352" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="12" fill="#1c1f22">ფარდობითი (docs-იდან): notes.txt</text>
+<text x="40" y="374" text-anchor="start" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="12" fill="#1c1f22">ფარდობითი (photos-იდან): ../docs/notes.txt</text>
+<rect x="450" y="56" width="340" height="330" rx="8" fill="#f2f3f4" stroke="#d8dbde" stroke-width="1.5"/>
+<text x="620" y="80" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">3-2-1 სარეზერვო წესი</text>
+<rect x="480" y="100" width="280" height="72" rx="8" fill="#dbeaf7" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="620" y="132" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ასლი 1: ორიგინალი</text>
+<text x="620" y="154" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">შენს კომპიუტერში</text>
+<rect x="480" y="190" width="280" height="72" rx="8" fill="#e2f1e8" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="620" y="222" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ასლი 2: გარე დისკი</text>
+<text x="620" y="244" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">სხვა მატარებელი</text>
+<rect x="480" y="280" width="280" height="72" rx="8" fill="#fdebd9" stroke="#b9bec3" stroke-width="1.5"/>
+<text x="620" y="312" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ასლი 3: სხვა ადგილას</text>
+<text x="620" y="334" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="11.5" fill="#5d646b">ღრუბელი ან სხვა სახლი</text>
+<text x="620" y="372" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1c1f22">3 ასლი · 2 მატარებელი · 1 სხვა ადგილას</text>
+</svg>

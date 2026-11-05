@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" width="820" height="360" role="img" aria-labelledby="t d">
+<title id="t">ერთჯერადი კოდი დროიდან</title>
+<desc id="d">ტელეფონსა და სერვერს ერთი საიდუმლო გასაღები აქვს. ორივე ითვლის კოდს გასაღებისა და მიმდინარე დროის 30-წამიანი მონაკვეთიდან. კოდები ემთხვევა.</desc>
+<rect x="1" y="1" width="818" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">TOTP: ორივე მხარე ერთსა და იმავეს ითვლის</text>
+<rect x="40" y="70" width="230" height="90" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="155.0" y="102.5" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ტელეფონი</text>
+<text x="155.0" y="119.5" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">გასაღები + დრო</text>
+<text x="155.0" y="136.6" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ითვლის: 4 8 2 9 1 7</text>
+<rect x="550" y="70" width="230" height="90" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="665.0" y="102.5" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">სერვერი</text>
+<text x="665.0" y="119.5" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">იგივე გასაღები + დრო</text>
+<text x="665.0" y="136.6" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ითვლის: 4 8 2 9 1 7</text>
+<rect x="290" y="190" width="240" height="56" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="410.0" y="214.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">გასაღები არ იგზავნება</text>
+<text x="410.0" y="231.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ქსელში მხოლოდ კოდი გადის</text>
+<line x1="270" y1="115" x2="550" y2="115" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="410.0" y="104" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">შენ ჩაწერ კოდს: 482917</text>
+<rect x="40" y="270" width="740" height="52" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="410.0" y="292.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" font-weight="700" fill="#1c1f22">დრო იყოფა 30-წამიან მონაკვეთებად; ახალ მონაკვეთზე ახალი კოდია</text>
+<text x="410.0" y="308.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">შენიშვნა: ციფრები ილუსტრაციაა და რეალური ანგარიშის კოდი არ არის</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-labelledby="t d">
+<title id="t">CIA სამეული</title>
+<desc id="d">სამი თვისება: კონფიდენციალურობა, მთლიანობა, ხელმისაწვდომობა. თითოეულს ახლავს მაგალითი ზიანისა: გაჟონვა, ცვლილება, გათიშვა.</desc>
+<rect x="1" y="1" width="818" height="328" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="24" y="32" text-anchor="start" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="16" font-weight="700" fill="#1c1f22">ინფორმაციის დაცვის სამი მიზანი</text>
+<rect x="30" y="60" width="240" height="130" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="150.0" y="104.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">კონფიდენციალურობა</text>
+<text x="150.0" y="121.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">Confidentiality</text>
+<text x="150.0" y="138.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">მხოლოდ უფლებამოსილი</text>
+<text x="150.0" y="155.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">ადამიანი ხედავს</text>
+<rect x="30" y="210" width="240" height="44" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="150.0" y="236.6" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#1c1f22">ზიანი: გაჟონვა</text>
+<line x1="150" y1="190" x2="150" y2="210" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="292" y="60" width="240" height="130" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="412.0" y="104.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">მთლიანობა</text>
+<text x="412.0" y="121.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">Integrity</text>
+<text x="412.0" y="138.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">მონაცემი უნებართვოდ</text>
+<text x="412.0" y="155.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">არ შეცვლილა</text>
+<rect x="292" y="210" width="240" height="44" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="412.0" y="236.6" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#1c1f22">ზიანი: ჩუმი ცვლილება</text>
+<line x1="412" y1="190" x2="412" y2="210" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<rect x="554" y="60" width="240" height="130" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="674.0" y="104.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" font-weight="700" fill="#1c1f22">ხელმისაწვდომობა</text>
+<text x="674.0" y="121.0" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">Availability</text>
+<text x="674.0" y="138.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">საჭიროებისას</text>
+<text x="674.0" y="155.1" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">მონაცემი ხელმისაწვდომია</text>
+<rect x="554" y="210" width="240" height="44" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="674.0" y="236.6" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#1c1f22">ზიანი: გათიშვა</text>
+<line x1="674" y1="190" x2="674" y2="210" stroke="#5d646b" stroke-width="2" marker-end="url(#agray)"/>
+<text x="410" y="300" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="13" fill="#5d646b">სამივე ერთდროულად ითვლება: ერთის გაუმჯობესება ზოგჯერ მეორეს ამცირებს</text>
+</svg>

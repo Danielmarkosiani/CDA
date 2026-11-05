@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-labelledby="t d">
+<title id="t">გზამკვლევზე მუშაობა: პირველი ვერსიიდან გაგზავნამდე</title>
+<desc id="d">სქემა: ექვსი საფეხური თანმიმდევრობით (პირველი ვერსია, დასვენება და ხმამაღლა კითხვა, მკითხველის ტესტი, ფაქტებისა და ეთიკის შემოწმება, თვითშეფასება, გაგზავნა ან პორტფოლიო); მენტორის შენიშვნის შემდეგ ბრუნდები გადახედვაზე.</desc>
+<rect x="1" y="1" width="758" height="328" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<rect x="14" y="30" width="220" height="70" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="124.0" y="69.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">1. პირველი ვერსია</text>
+<rect x="260" y="30" width="220" height="70" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="370.0" y="60.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">2. დასვენება და</text>
+<text x="370.0" y="78.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">ხმამაღლა კითხვა</text>
+<rect x="506" y="30" width="220" height="70" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="616.0" y="69.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">3. მკითხველის ტესტი</text>
+<rect x="506" y="170" width="220" height="70" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="616.0" y="209.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">4. ფაქტები და ეთიკა</text>
+<rect x="260" y="170" width="220" height="70" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text x="370.0" y="209.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">5. თვითშეფასება</text>
+<rect x="14" y="170" width="220" height="70" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="124.0" y="200.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">6. გაგზავნა /</text>
+<text x="124.0" y="218.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#5d646b">პორტფოლიო</text>
+<line x1="234" y1="65" x2="260" y2="65" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="480" y1="65" x2="506" y2="65" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="616" y1="100" x2="616" y2="170" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="506" y1="205" x2="480" y2="205" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="260" y1="205" x2="234" y2="205" stroke="#2b7cc2" stroke-width="2" marker-end="url(#ablue)"/>
+<text x="380" y="300" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">მენტორის შენიშვნის შემდეგ ან მკითხველის ტესტზე პრობლემის პოვნისას ბრუნდები საფეხურ 2-ზე</text>
+<text x="380" y="322" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ლურჯი = მუშაობა · ნარინჯისფერი = შემოწმება · მწვანე = საბოლოო ნაბიჯი</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-labelledby="t d">
+<title id="t">ლექსიკონით დათვლა: IP → წარუმატებელი მცდელობების რაოდენობა</title>
+<desc id="d">სქემა: ლოგის ოთხი ხაზიდან სამი FAILED-ია; ციკლი ყოველ FAILED ხაზზე ლექსიკონში IP-ის მნიშვნელობას ერთით ზრდის.</desc>
+<rect x="1" y="1" width="758" height="358" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="ablue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="agray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5d646b"/></marker><marker id="agreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="aorange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c05621"/></marker></defs>
+<text x="150" y="36" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">ლოგის ხაზები</text>
+<text x="600" y="36" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1c1f22">counts (ლექსიკონი)</text>
+<rect x="20" y="56" width="260" height="46" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="150.0" y="83.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">192.0.2.5 FAILED</text>
+<rect x="20" y="118" width="260" height="46" rx="8" fill="#f2f3f4" stroke="#5d646b" stroke-width="1.5"/>
+<text x="150.0" y="145.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">198.51.100.7 OK</text>
+<rect x="20" y="180" width="260" height="46" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="150.0" y="207.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">192.0.2.5 FAILED</text>
+<rect x="20" y="242" width="260" height="46" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text x="150.0" y="269.9" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="14" fill="#1c1f22">203.0.113.9 FAILED</text>
+<rect x="470" y="70" width="270" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="605.0" y="101.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">"192.0.2.5"  :  2</text>
+<rect x="470" y="150" width="270" height="52" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text x="605.0" y="181.2" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="15" fill="#1c1f22">"203.0.113.9"  :  1</text>
+<line x1="280" y1="79" x2="470" y2="92" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="385" y="70" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">+1</text>
+<line x1="280" y1="203" x2="470" y2="100" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="335" y="192" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">+1</text>
+<line x1="280" y1="265" x2="470" y2="176" stroke="#c05621" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="405" y="262" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">+1 (ახალი გასაღები)</text>
+<text x="380" y="312" text-anchor="middle" font-family="ui-monospace, Consolas, Menlo, monospace" font-size="14" fill="#1c1f22">counts[ip] = counts.get(ip, 0) + 1</text>
+<text x="380" y="336" text-anchor="middle" font-family="Inter, 'Noto Sans Georgian', Sylfaen, system-ui, sans-serif" font-size="12" fill="#5d646b">ნარინჯისფერი = FAILED ხაზი · ნაცრისფერი = გამოტოვებული (OK)</text>
+</svg>

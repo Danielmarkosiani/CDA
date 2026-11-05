@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 392" width="480" height="392" role="img" aria-labelledby="t d">
+<title id="t">პროცესის შეჩერება: TERM და KILL</title>
+<desc id="d">kill PID ნაგულისხმევად TERM (15) სიგნალს აგზავნის: პროცესი ინახავს ფაილებს, თავად გადის და გასვლის კოდია 143. თუ პროცესი არ პასუხობს, kill -9 PID გაგზავნის KILL (9) სიგნალს: პროცესი მაშინვე წყდება და შეუნახავი მონაცემი შეიძლება დაიკარგოს.</desc>
+<style>
+.bg{fill:#ffffff;stroke:#d8dbde}
+text{font-family:'Noto Sans Georgian','Sylfaen','Segoe UI',sans-serif;fill:#1c1f22}
+.mono{font-family:ui-monospace,Consolas,Menlo,'DejaVu Sans Mono',monospace}
+.m{fill:#5d646b}.b{font-weight:700}
+.tb{fill:#1f6aa8}.to{fill:#a8460f}.tg{fill:#25704a}
+.halo{stroke:#ffffff;stroke-width:5;paint-order:stroke;stroke-linejoin:round}
+.fb{fill:#dbeaf7;stroke:#2b7cc2}.fg{fill:#e2f1e8;stroke:#2f855a}.fo{fill:#fdebd9;stroke:#c05621}.fy{fill:#f2f3f4;stroke:#5d646b}
+.lb{stroke:#2b7cc2}.lg{stroke:#2f855a}.lo{stroke:#c05621}.ly{stroke:#5d646b}
+.mb{fill:#2b7cc2}.mg{fill:#2f855a}.mo{fill:#c05621}.my{fill:#5d646b}
+.gc{fill:#2b7cc2}.gl{stroke:#9aa3ab}
+.dot{fill:#2b7cc2}.dot-t{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1c1f22;stroke:#3a4047}
+text{fill:#eceef0}
+.m{fill:#adb4bb}
+.tb{fill:#7dbdf0}.to{fill:#f4a868}.tg{fill:#6fcb98}
+.halo{stroke:#1c1f22}
+.fb{fill:#1d3a56;stroke:#6db3ec}.fg{fill:#1c3b2a;stroke:#5fc08a}.fo{fill:#4a2c17;stroke:#f0a060}.fy{fill:#2a2f34;stroke:#8d969e}
+.lb{stroke:#6db3ec}.lg{stroke:#5fc08a}.lo{stroke:#f0a060}.ly{stroke:#8d969e}
+.mb{fill:#6db3ec}.mg{fill:#5fc08a}.mo{fill:#f0a060}.my{fill:#8d969e}
+.gc{fill:#6db3ec}.gl{stroke:#4a525a}
+.dot{fill:#6db3ec}.dot-t{fill:#10202f}
+}
+</style>
+<rect class="bg" x="1" y="1" width="478" height="390" rx="12" fill="#ffffff" stroke="#d8dbde"/>
+<defs><marker id="mb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mb" d="M0 0L10 5L0 10z" fill="#2b7cc2"/></marker><marker id="mg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mg" d="M0 0L10 5L0 10z" fill="#2f855a"/></marker><marker id="mo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mo" d="M0 0L10 5L0 10z" fill="#c05621"/></marker><marker id="my" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="my" d="M0 0L10 5L0 10z" fill="#5d646b"/></marker></defs>
+<text class="b" x="240" y="30" text-anchor="middle" font-size="16">პროცესის შეჩერება: TERM და KILL</text>
+<rect class="fb" x="90" y="52" width="300" height="60" rx="8" fill="#dbeaf7" stroke="#2b7cc2" stroke-width="1.5"/>
+<text class="mono b" x="240" y="76.5" text-anchor="middle" font-size="15">kill PID</text>
+<text class="m" x="240" y="97.5" text-anchor="middle" font-size="14">ნაგულისხმევი სიგნალი: TERM (15)</text>
+<path class="lg" d="M128,112 L128,176" fill="none" stroke="#2f855a" stroke-width="2" marker-end="url(#mg)"/>
+<text class="m" x="138" y="150" text-anchor="start" font-size="14">პასუხობს</text>
+<path class="lo" d="M352,112 L352,176" fill="none" stroke="#c05621" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#mo)"/>
+<text class="m" x="342" y="150" text-anchor="end" font-size="14">არ პასუხობს</text>
+<rect class="fg" x="20" y="176" width="216" height="130" rx="8" fill="#e2f1e8" stroke="#2f855a" stroke-width="1.5"/>
+<text class="b" x="128" y="204.0" text-anchor="middle" font-size="15">TERM (15)</text>
+<text x="128" y="225.0" text-anchor="middle" font-size="15">ზრდილობიანი თხოვნა</text>
+<text x="128" y="246.0" text-anchor="middle" font-size="15">პროცესი ინახავს ფაილებს</text>
+<text x="128" y="267.0" text-anchor="middle" font-size="15">და თავად გადის</text>
+<text class="m" x="128" y="288.0" text-anchor="middle" font-size="14">გასვლის კოდი: 143</text>
+<rect class="fo" x="244" y="176" width="216" height="130" rx="8" fill="#fdebd9" stroke="#c05621" stroke-width="1.5"/>
+<text class="mono b" x="352" y="204.0" text-anchor="middle" font-size="15">kill -9 PID</text>
+<text x="352" y="225.0" text-anchor="middle" font-size="15">KILL (9)</text>
+<text x="352" y="246.0" text-anchor="middle" font-size="15">პროცესი მაშინვე წყდება</text>
+<text x="352" y="267.0" text-anchor="middle" font-size="15">შეუნახავი მონაცემი</text>
+<text x="352" y="288.0" text-anchor="middle" font-size="15">შეიძლება დაიკარგოს</text>
+<text class="b" x="240" y="340" text-anchor="middle" font-size="15">წესი: ჯერ TERM.</text>
+<text x="240" y="362" text-anchor="middle" font-size="15">KILL მხოლოდ მაშინ, თუ პროცესი არ პასუხობს.</text>
+</svg>
